@@ -2,7 +2,7 @@
 **This is a bold sentence test**
 
 
-# The First Heading with a link to the website that hosts this file.
+# The First Heading with a link to the website that hosts this file below
 [Link](https://github.com/ShoumilSarkar/cse15l-lab-reports/edit/main/index.md)
 
 
@@ -11,7 +11,7 @@
 ![Image](https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_desktop_computers.jpg)
 
 
-> Testinga a blockquote before a list
+> Testing a blockquote before a list
 
 * First List Item
 * Second List Item
@@ -29,7 +29,7 @@
 
 
 
-`System.out.println("Hello World")` 
+`System.out.println("Testing Inline Code Block")` 
 
 
 
