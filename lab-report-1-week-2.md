@@ -32,7 +32,7 @@ After typing in your password you will be greeted by a screen showing that you h
 
 ## Step 3: Trying Some Commands
 
-After logging in, there are a multitude of Linux commands that an be used.
+After logging in, there are a multitude of Linux commands that an be used. Here are some important ones.
 
 >`pwd` Prints the working directory 
 
@@ -45,7 +45,7 @@ After logging in, there are a multitude of Linux commands that an be used.
 
 >`cd` Follow this command by another directory to go into that directory and make it your current working directory  
 >>`..` refers to the previous directory and can be used in conjunction with cd to go to the parent directory
-t
+
 These are some of the commands that can be used to traverse a remote server through the terminal.
 
 Here is an example:
@@ -79,9 +79,7 @@ To set this up, enter `ssh-keygen` in the terminal of the local computer. It wil
 
 The next step is to copy the public key from the pair we generated to the server.
 
-As done in step 4, we will login and use `scp`, but first we need to create a `.ssh` directory on the server. The command for this is `mkdir`. So here we will do 
-
-`mkdir .ssh`
+As done in step 4, we will login and use `scp`, but first we need to create a `.ssh` directory on the server. The command for this is `mkdir`. So here we will do `mkdir .ssh`.
 
 ![image](./mkdir%20Screenshot.png)
 
@@ -96,8 +94,8 @@ Now a password is not required to login and run commmands.
 
 There are two main tools that can be used to optimize running files remotely.
 
-1. We can run commands at the end of an `ssh` login by enclosing them in quotes.
-2. Multiple commands can be run in the same line by seperating them with semicolons.
+> 1. We can run commands at the end of an `ssh` login by enclosing them in quotes.
+> 2. Multiple commands can be run in the same line by seperating them with semicolons.
 
 We can actually put these two together to login and run multiple commands all in one line.
 
@@ -108,4 +106,4 @@ We can actually put these two together to login and run multiple commands all in
 Here we login to cs15lsp22ajg, compile the `WhereAmI.java` file and then run it, all in one line.
 
 
-**Note: Some steps done were connecting to a personal ucsd ieng6 account instead of the correct class username however, the same steps apply**
+**Note: Some steps done were connecting to a personal ucsd ieng6 account instead of the correct class username, however, the same steps apply.**
