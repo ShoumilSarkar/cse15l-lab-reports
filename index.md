@@ -41,6 +41,16 @@ def foo:
 
 
 ---
-#Trying Commits From VSCode
+# Trying Commits From VSCode
 
 > Live markdown preview is cool
+
+
+
+# Lab Report 1
+[Link](https://shoumilsarkar.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+
+# Lab Report 2
+[Link](https://shoumilsarkar.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
