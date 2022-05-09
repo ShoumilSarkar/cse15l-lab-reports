@@ -13,4 +13,34 @@ Copying over the file can now be done like this
 
 ## Setup Github Access From ieng6
 
+The public keys are stored in the settings pane of Github
+![Github SSH Keys](./Lab%205%20Github%20SSH%20Key%20Location.png)
+
+The Private key that is stored on my user account is in the ```.ssh``` folder in ```id_rsa```
+
+![Server Private Keys](./Lab%205%20Private%20Key%20On%20Server%20Location.png)
+
+
+Here, I Clone a repo from my Github Account to the Linux Server
+
+![Repo Clone to Server](./Cloning%20Lab%20Report%203%20Repo%20on%20Server.png)
+
+After making changes to ```test.java``` we want to commit and push them to Github
+
+>Here to make it easier an pre-edited version of the ```test.java``` file was copied over to the server instead of updating the file on the server itself
+
+
+
+
+
+We are now able to use git commands to commit and push to Github 
+![Commit to Github From Server]()
+
 ## Copy Whole Directory Recursively(```scp -r```)
+
+This is what transferring using ```-r``` looks like
+![Transferring Markdown 1](./Transferring%20Markdown%20Parse.png)
+![Transferring Markdown 2](./Transferring%20Markdown%202.png)
+
+
+
