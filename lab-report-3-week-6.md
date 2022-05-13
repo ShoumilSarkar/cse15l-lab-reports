@@ -34,7 +34,7 @@ After making changes to ```test.java``` we want to commit and push them to Githu
 
 
 We are now able to use git commands to commit and push to Github 
-![Commit to Github From Server]()
+[Commit to Github From Server]()
 
 ## Copy Whole Directory Recursively(```scp -r```)
 
