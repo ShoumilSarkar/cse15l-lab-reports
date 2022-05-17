@@ -46,7 +46,7 @@ This is what transferring using ```-r``` looks like
 >Lots of different files got copied over here. We can specifiy what files or filetypes we copy over when using the scp command. (done with the one line command later)
 
 ### Testing on the Server
-Now that we have copied it over we can run the tests after we ssh onto the server
+Now that we have copied over the directory, we can run the tests after we ssh onto the server
 
 ![Running Tests on Server](./Lab%205%20Login%20into%20Server%20and%20Run.png)
 
@@ -59,3 +59,4 @@ We can copy the files we need over and run the tests in one line
 ![SCP and run one line](./Lab%205%20SCP%20and%20Run%20Tests%20Remotely%20in%20One%20Line.png)
 
 >Here we copy over the current directory with files of type ```.java``` and ```.md``` and the ```lib``` folder. Then in the next command seperated by a semicolon we ssh into the server. Along with the ssh part of the one line command we use quotes to specify the commands to be done after we login to the server. These commands were to enter the ```markdown-parser``` folder we just copied over to, and then compiling and running the ```MarkdownParseTest.java``` file.
+>>Note: After this completes you do not stay on the server
