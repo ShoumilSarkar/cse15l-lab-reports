@@ -14,6 +14,7 @@
 ### Snippet 1
 
 Expected output:
+
 ![Snippet One Expected](./Snippet%201%20Expected%20Preview.png)
 
 >We determine that the links Markdown expects from the file are, "`google.com","google.com", and "ucsd.edu".
