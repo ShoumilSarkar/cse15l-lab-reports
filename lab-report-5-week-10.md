@@ -29,7 +29,7 @@ The second difference found to go over is the output of test-file 201.
 
 ![Test-File 201 Comparison](./Lab%20Report%205%20Test-File%20201%20Diff.png)
 
-The given Lab 9 implementation gives an output of `[baz]`. My parser's output was no links found, `[]`. For this file, my implementation is correct because there should not be any links found for this. This is because between the last `]` and the `(` there is the string `: <bar>`, these characters being in between makes this an invalid link format so no link should be found.
+The given Lab 9 implementation gives an output of `[baz]`. My parser's output was no links found, `[]`. For this file, my implementation is correct because there should not be any links found. This is because between the last `]` and the `(` there is the string `: <bar>`, these characters being in between makes this an invalid link format so no link should be found.
 
 ![Problem Two](./Lab%20Report%205%20Fix%202.png)
 
